@@ -40,7 +40,7 @@ namespace KD12NTierApi.DataAccess.EntityFramework.Abstract
 
         public async Task<List<T>> GetAll() => await _table.ToListAsync();
 
-        public async Task<T> GetByID(Guid id) => await _table.FindAsync(id);
+        public async Task<T> GetByID(int id) => await _table.FindAsync(id);
 
         public async Task<int> Save()
         {

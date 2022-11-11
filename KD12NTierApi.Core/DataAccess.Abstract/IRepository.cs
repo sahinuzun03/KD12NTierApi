@@ -14,7 +14,7 @@ namespace KD12NTierApi.Core.DataAccess.Abstract
         Task<bool> Update(T entity);
         Task<bool> Delete(T entity);
         Task<List<T>> GetAll();
-        Task<T> GetByID(Guid id);
+        Task<T> GetByID(int id);
         Task<int> Save();
     }
 }

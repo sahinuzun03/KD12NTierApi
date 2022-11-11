@@ -39,7 +39,7 @@ namespace KD12NTierApi.Bussiness.Concrete
             return  await _personRepository.GetAll();
         }
 
-        public async Task<Person> GetByID(Guid id)
+        public async Task<Person> GetByID(int id)
         {
             return await _personRepository.GetByID(id);
         }

@@ -14,6 +14,6 @@ namespace KD12NTierApi.Bussiness.Abstract
         Task<bool> Update(Person entity);
         Task<bool> Delete(Person entity);
         Task<List<Person>> GetAll();
-        Task<Person> GetByID(Guid id);
+        Task<Person> GetByID(int id);
     }
 }

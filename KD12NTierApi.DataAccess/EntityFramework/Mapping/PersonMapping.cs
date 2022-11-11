@@ -15,8 +15,8 @@ namespace KD12NTierApi.DataAccess.EntityFramework.Mapping
         public void Configure(EntityTypeBuilder<Person> builder)
         {
             builder.HasKey(p => p.Id);
-            builder.Property(x => x.Name).HasMaxLength(25).HasColumnType("nvarhcar");
-            builder.Property(x => x.Surname).HasMaxLength(50).HasColumnType("nvarhcar");
+            builder.Property(x => x.Name).HasMaxLength(25).HasColumnType("nvarchar");
+            builder.Property(x => x.Surname).HasMaxLength(50).HasColumnType("nvarchar");
         }
     }
 }

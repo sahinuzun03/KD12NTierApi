@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KD12NTierApi", "KD12NTierApi\KD12NTierApi.csproj", "{6CA52277-6F7B-4AB8-B751-ABC89D3D147B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KD12NTierApi", "KD12NTierApi\KD12NTierApi.csproj", "{6CA52277-6F7B-4AB8-B751-ABC89D3D147B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KD12NTierApi.Entities", "KD12NTierApi.Entities\KD12NTierApi.Entities.csproj", "{9A9EB8AB-0C13-4315-904B-CF1E05902D01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KD12NTierApi.Entities", "KD12NTierApi.Entities\KD12NTierApi.Entities.csproj", "{9A9EB8AB-0C13-4315-904B-CF1E05902D01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KD12NTierApi.DataAccess", "KD12NTierApi.DataAccess\KD12NTierApi.DataAccess.csproj", "{2D436EDE-CE6A-4FC6-A999-038BF609D6DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KD12NTierApi.DataAccess", "KD12NTierApi.DataAccess\KD12NTierApi.DataAccess.csproj", "{2D436EDE-CE6A-4FC6-A999-038BF609D6DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KD12NTierApi.Bussiness", "KD12NTierApi.Bussiness\KD12NTierApi.Bussiness.csproj", "{B861B714-8091-4CAF-A5C8-F21D73EB62DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KD12NTierApi.Bussiness", "KD12NTierApi.Bussiness\KD12NTierApi.Bussiness.csproj", "{B861B714-8091-4CAF-A5C8-F21D73EB62DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KD12NTierApi.Core", "KD12NTierApi.Core\KD12NTierApi.Core.csproj", "{A309A6B7-6279-4F4D-9054-45624EBE234E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KD12NTierApi.Core", "KD12NTierApi.Core\KD12NTierApi.Core.csproj", "{A309A6B7-6279-4F4D-9054-45624EBE234E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KD12NTierApi.UI", "KD12NTierApi.UI\KD12NTierApi.UI.csproj", "{B0463E7C-F868-442C-8EA0-E0935237D852}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A309A6B7-6279-4F4D-9054-45624EBE234E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A309A6B7-6279-4F4D-9054-45624EBE234E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A309A6B7-6279-4F4D-9054-45624EBE234E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0463E7C-F868-442C-8EA0-E0935237D852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0463E7C-F868-442C-8EA0-E0935237D852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0463E7C-F868-442C-8EA0-E0935237D852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0463E7C-F868-442C-8EA0-E0935237D852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
