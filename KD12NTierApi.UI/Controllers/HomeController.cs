@@ -36,16 +36,16 @@ namespace KD12NTierApi.UI.Controllers
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("https://localhost:7038/"); //Api local adresi verdim
-                var responseTask = client.GetAsync("api/Person");
-                responseTask.Wait();
-                var resultTask = responseTask.Result;
+                var responseTask = client.GetAsync("api/Person");//Bilgileri getirecek olan metot 
+                responseTask.Wait();//Bilgilerin gelmesi için beklemesini söyledik
+                var resultTask = responseTask.Result; //dönen sonucu resultta yakaladık
 
-                if (responseTask.IsCompletedSuccessfully)
+                if (responseTask.IsCompletedSuccessfully) //Bu işlem doğru döndü mü onu kontrol ediyorumz
                 {
                     var readTask = resultTask.Content.ReadAsStringAsync();// Sen git o listeyi oku ve bana döndür
-                    readTask.Wait();
-                    var veri = JsonConvert.DeserializeObject<List<Person>>(readTask.Result);
-                    return View(veri);
+                    readTask.Wait(); //Listeyi okumasını bekledik
+                    var veri = JsonConvert.DeserializeObject<List<Person>>(readTask.Result);//String json olan veriyi jsondan listeye çevirdik
+                    return View(veri);//gelendatayı ekrana bastık.
                 }
                 else
                 {
